@@ -1,0 +1,35 @@
+# Task 01 – Hello World Program
+
+## Aim
+
+To write a simple Python program that displays the message "Hello World" on the screen.
+
+## Problem Statement
+
+Create a Python program that prints the text "Hello World" when executed.
+
+## Algorithm
+
+1. Start the program.
+2. Display the message "Hello World".
+3. End the program.
+
+## Flowchart
+
+Start
+↓
+Display "Hello World"
+↓
+Stop
+
+## Python Program
+
+print("Hello World")
+
+## Output
+
+Hello World
+
+## Result
+
+The program was executed successfully and displayed the message "Hello World" on the screen.
