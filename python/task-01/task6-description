@@ -1,0 +1,78 @@
+TASK – 06
+
+TITLE: TEMPERATURE CONVERSION
+
+PROBLEM STATEMENT
+
+Write a Python program to convert temperature from Celsius to Fahrenheit.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the temperature in Celsius
+
+Step 3: Convert Celsius to Fahrenheit using the formula:
+
+           Fahrenheit = (Celsius × 9/5) + 32
+
+Step 4: Display the temperature in Fahrenheit
+
+Step 5: Stop
+
+FLOWCHART
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱──────────────────────╲
+  ╱ Input Celsius Value    ╲
+  ╲                        ╱
+   ╲──────────────────────╱
+              │
+              ▼
+    ┌─────────────────────┐
+    │ Fahrenheit =        │
+    │ (C × 9/5) + 32      │
+    └─────────┬───────────┘
+              │
+              ▼
+   ╱──────────────────────╲
+  ╱ Display Fahrenheit     ╲
+  ╲ Value                  ╱
+   ╲──────────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 06: Temperature Conversion
+# Problem Statement:
+# Write a Python program to convert temperature from Celsius to Fahrenheit.
+
+# Reading temperature in Celsius
+celsius = float(input("Enter temperature in Celsius: "))
+
+# Converting to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Displaying result
+print("Temperature in Fahrenheit =", fahrenheit)
+
+
+OUTPUT
+
+
+Enter temperature in Celsius: 45
+Temperature in Fahrenheit = 113.0
+
+
+RESULT
+
+The program was executed successfully and the temperature was converted from Celsius to Fahrenheit and displayed.
