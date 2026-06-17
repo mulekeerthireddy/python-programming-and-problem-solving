@@ -1,0 +1,88 @@
+TASK – 05
+
+TITLE: AREA OF RECTANGLE CALCULATION
+
+PROBLEM STATEMENT
+
+Write a Python program to calculate the area of a rectangle using length and breadth.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the length of the rectangle
+
+Step 3: Read the breadth of the rectangle
+
+Step 4: Calculate the area using the formula:
+
+           Area = Length × Breadth
+
+Step 5: Display the area
+
+Step 6: Stop
+
+FLOWCHART
+
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Input Length (L)    ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Input Breadth (B)   ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+    ┌───────────────────┐
+    │   Area = L × B    │
+    └─────────┬─────────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Display Area        ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 05: Area of Rectangle Calculation
+# Problem Statement:
+# Write a Python program to calculate the area of a rectangle using length and breadth.
+
+# Reading length and breadth
+length = float(input("Enter length: "))
+breadth = float(input("Enter breadth: "))
+
+# Calculating area
+area = length * breadth
+
+# Displaying result
+print("Area of Rectangle =", area)
+
+
+OUTPUT
+
+
+Enter length: 42
+Enter breadth: 55
+Area of Rectangle = 2310.0
+
+
+RESULT
+
+The program was executed successfully and the area of the rectangle was calculated and displayed.
