@@ -1,0 +1,78 @@
+TASK – 04
+
+TITLE: AREA OF CIRCLE CALCULATION
+
+PROBLEM STATEMENT
+
+Write a Python program to calculate the area of a circle for a given radius.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the radius of the circle
+
+Step 3: Calculate the area using the formula:
+
+        Area = 3.14 × Radius × Radius
+
+Step 4: Display the area
+
+Step 5: Stop
+
+FLOWCHART
+
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱   Input Radius (r)  ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+    ┌───────────────────┐
+    │ Area =3.14 × r × r│
+    └─────────┬─────────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱     Display Area    ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 04: Area of Circle Calculation
+# Problem Statement:
+# Write a Python program to calculate the area of a circle for a given radius.
+
+# Reading radius from the user
+radius = float(input("Enter radius: "))
+
+# Calculating area
+area = 3.14 * radius * radius
+
+# Displaying result
+print("Area of Circle =", area)
+
+
+OUTPUT
+
+
+Enter radius: 8.5
+Area of Circle = 226.865
+
+
+RESULT
+
+The program was executed successfully and the area of the circle was calculated and displayed.
