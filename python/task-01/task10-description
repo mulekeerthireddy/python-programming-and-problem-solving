@@ -1,0 +1,76 @@
+TASK – 10
+
+TITLE: PERCENTAGE CALCULATOR
+
+PROBLEM STATEMENT
+
+Write a Python program to calculate the percentage of marks obtained in an examination.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the total marks obtained by the student
+
+Step 3: Calculate the percentage using the formula:
+
+  Percentage = (Total Marks / 500) × 100
+
+Step 4: Display the percentage
+
+Step 5: Stop
+
+FLOWCHART
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱──────────────────────╲
+  ╱ Input Total Marks      ╲
+  ╲ Obtained              ╱
+   ╲──────────────────────╱
+              │
+              ▼
+    ┌─────────────────────┐
+    │ Percentage =        │
+    │ (Total/500) × 100   │
+    └─────────┬───────────┘
+              │
+              ▼
+   ╱──────────────────────╲
+  ╱ Display Percentage     ╲
+  ╲                        ╱
+   ╲──────────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 10: Percentage Calculator
+# Problem Statement:
+# Write a Python program to calculate the percentage
+# of marks obtained in an examination.
+
+# Reading total marks
+total_marks = int(input("Enter Total Marks Obtained: "))
+
+# Calculating percentage
+percentage = (total_marks / 500) * 100
+
+# Displaying result
+print("Percentage =", percentage)
+
+OUTPUT
+
+Enter Total Marks Obtained: 456
+Percentage = 91.2
+
+RESULT
+
+The program was executed successfully and the percentage of marks obtained in the examination was calculated and displayed.
