@@ -1,0 +1,103 @@
+TASK – 07
+
+TITLE: UNIT CONVERSION PROGRAM
+
+PROBLEM STATEMENT
+
+Write a Python program to convert kilometers to meters, meters to centimeters, and kilograms to grams.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the value in kilometers
+
+Step 3: Read the value in meters
+
+Step 4: Read the value in kilograms
+
+Step 5: Convert kilometers to meters
+
+Step 6: Convert meters to centimeters
+
+Step 7: Convert kilograms to grams
+
+Step 8: Display all converted values
+
+Step 9: Stop
+
+FLOWCHART
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱──────────────────────╲
+  ╱ Input km, m and kg     ╲
+  ╲                        ╱
+   ╲──────────────────────╱
+              │
+              ▼
+    ┌─────────────────────┐
+    │ meters = km × 1000  │
+    └─────────┬───────────┘
+              │
+              ▼
+    ┌─────────────────────┐
+    │    centimeters =    │
+    │     m × 100         │
+    └─────────┬───────────┘
+              │
+              ▼
+    ┌─────────────────────┐
+    │ grams = kg × 1000   │
+    └─────────┬───────────┘
+              │
+              ▼
+   ╱──────────────────────╲
+  ╱ Display Results        ╲
+  ╲                        ╱
+   ╲──────────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+
+# Task 07: Unit Conversion Program
+# Problem Statement:
+# Write a Python program to convert kilometers to meters,
+# meters to centimeters, and kilograms to grams.
+
+# Reading values from the user
+km = float(input("Enter kilometers: "))
+m = float(input("Enter meters: "))
+kg = float(input("Enter kilograms: "))
+
+meters = km * 1000
+centimeters = m * 100
+grams = kg * 1000
+print("Kilometers to Meters =", meters)
+print("Meters to Centimeters =", centimeters)
+print("Kilograms to Grams =", grams)
+
+
+OUTPUT
+
+Enter kilometers: 40
+Enter meters: 345
+Enter kilograms: 400
+
+Kilometers to Meters = 40000.0
+Meters to Centimeters = 34500.0
+Kilograms to Grams = 400000.0
+
+
+RESULT
+
+The program was executed successfully and the given units were converted and displayed.
