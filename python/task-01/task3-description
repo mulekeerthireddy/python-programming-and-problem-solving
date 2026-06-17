@@ -1,0 +1,86 @@
+TASK – 03
+
+TITLE: ADDITION OF TWO NUMBERS
+
+PROBLEM STATEMENT
+
+Write a Python program to read two numbers and display their sum.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the first number
+
+Step 3: Read the second number
+
+Step 4: Calculate the sum of the two numbers
+
+Step 5: Display the sum
+
+Step 6: Stop
+
+FLOWCHART
+
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Input First Number  ╲
+  ╲         A           ╱
+   ╲───────────────────╱
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Input Second Number ╲
+  ╲         B           ╱
+   ╲───────────────────╱
+              │
+              ▼
+    ┌───────────────────┐
+    │     SUM = A + B   │
+    └─────────┬─────────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Display SUM         ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 03: Addition of Two Numbers
+# Problem Statement:
+# Write a Python program to read two numbers and display their sum.
+
+# Reading two numbers from the user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# Calculating sum
+sum = a + b
+
+# Displaying result
+print("Sum =", sum)
+```
+
+OUTPUT
+
+
+Enter first number: 5
+Enter second number: 8
+Sum = 13
+
+
+RESULT
+
+The program was executed successfully and the sum of the two numbers was displayed.
