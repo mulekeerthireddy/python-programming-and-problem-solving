@@ -1,0 +1,82 @@
+TASK – 08
+
+TITLE: SWAP TWO VARIABLES
+
+PROBLEM STATEMENT
+
+Write a Python program to interchange the values of two variables and display the result.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Read the value of variable A
+
+Step 3: Read the value of variable B
+
+Step 4: Swap the values of A and B
+
+Step 5: Display the swapped values
+
+Step 6: Stop
+
+FLOWCHART
+
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Input A and B       ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+    ┌───────────────────┐
+    │   A, B = B, A     │
+    │   (Swap Values)   │
+    └─────────┬─────────┘
+              │
+              ▼
+   ╱───────────────────╲
+  ╱ Display A and B     ╲
+  ╲                     ╱
+   ╲───────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 08: Swap Two Variables
+# Problem Statement:
+# Write a Python program to interchange the values
+# of two variables and display the result.
+
+# Reading values
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+
+a, b = b, a
+print("After Swapping:")
+print("a =", a)
+print("b =", b)
+
+OUTPUT
+
+Enter value of a: 55
+Enter value of b: 100
+
+After Swapping:
+
+a = 100
+b = 55
+
+RESULT
+
+The program was executed successfully and the values of the two variables were interchanged and displayed.
