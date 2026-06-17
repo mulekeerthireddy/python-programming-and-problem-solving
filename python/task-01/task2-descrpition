@@ -1,0 +1,73 @@
+TASK – 02
+
+TITLE: PERSONAL INFORMATION DISPLAY
+
+PROBLEM STATEMENT
+
+Write a Python program to display a student's personal information including name, roll number, branch, and college name.
+
+ALGORITHM
+
+Step 1: Start
+
+Step 2: Store the student's name, roll number, branch, and college name in variables
+
+Step 3: Display the stored information
+
+Step 4: Stop
+
+FLOWCHART
+
+        ┌───────────┐
+        │   START   │
+        └─────┬─────┘
+              │
+              ▼
+    ┌───────────────────┐
+    │ Store Name, Roll  │
+    │ No, Branch and    │
+    │ College Name      │
+    └─────────┬─────────┘
+              │
+              ▼
+   ╱─────────────────────╲
+  ╱ Display Student       ╲
+  ╲ Information           ╱
+   ╲─────────────────────╱
+              │
+              ▼
+        ┌───────────┐
+        │   STOP    │
+        └───────────┘
+
+
+PYTHON PROGRAM
+
+# Task 02: Personal Information Display
+# Problem Statement:
+# Write a Python program to display a student's
+# personal information.
+
+name = "Keerthi"
+roll_no = "12345"
+branch = "CSE"
+college = "ABC College"
+
+print("Name:", name)
+print("Roll No:", roll_no)
+print("Branch:", branch)
+print("College:", college)
+
+
+OUTPUT
+
+
+Name: Keerthi
+Roll No: 12345
+Branch: CSE
+College: ABC College
+
+
+RESULT
+
+The program was executed successfully and displayed the student's personal information.
